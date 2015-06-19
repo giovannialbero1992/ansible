@@ -1,0 +1,9 @@
+---
+- name: Update apt-cache
+  apt: update_cache=yes
+- name: "Install {{ item }}"
+  apt: pkg="{{ item }}" state=present
+  with_items:
+    - htop
+    - curl
+    - unzip
