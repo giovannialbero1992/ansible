@@ -1,0 +1,10 @@
+---
+- name: Install Nginx and PHP-FPM for a simple html page
+  hosts: all
+  sudo: yes
+
+  roles:
+    - { role: common, tags: common }
+    - { role: php5, tags: php }
+    - { role: nginx, tags: nginx }
+    - { role: simplePage, tags: wordpress }

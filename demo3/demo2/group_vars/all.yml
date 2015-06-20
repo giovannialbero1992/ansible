@@ -1,0 +1,14 @@
+---
+env: development
+site_name: local.ansiblemeetup.com
+wp_root: /srv/local.ansiblemeetup.com
+site_root: /srv/local.ansiblemeetup.com
+wp_db_name: meetup_com
+wp_db_user: admin
+host: local.ansiblemeetup.com
+wp_admin_email: admin@example.dev
+wp_admin_password: password
+wp_db_password: password
+wp_delete_content: true
+# wp_plugins:
+#   - { name: akismet, version: 3.0.1 }

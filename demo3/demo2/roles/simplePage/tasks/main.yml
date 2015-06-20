@@ -1,0 +1,5 @@
+---
+- name: Create Directory
+  file: path={{site_root}} state=directory
+- name: Upload simple webPage
+  copy: src=index.html dest={{site_root}}/index.html
