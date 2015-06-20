@@ -1,7 +1,8 @@
 ---
 env: development
 site_name: local.ansiblemeetup.com
-wp_root: /srv/local.ansiblemeetup.com/wordpress
+wp_root: /srv/local.ansiblemeetup.com
+site_root: /srv/local.ansiblemeetup.com
 wp_db_name: meetup_com
 wp_db_user: admin
 host: local.ansiblemeetup.com

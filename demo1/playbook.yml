@@ -12,4 +12,4 @@
         - unzip
     - name: Install php5-dev
       apt: pkg=php5-dev state=latest
-      when: ansible_distribution == "Debian"
+      when: ansible_distribution == "Ubuntu"
